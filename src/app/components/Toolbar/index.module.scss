@@ -1,0 +1,21 @@
+.root {
+  height: 100dvh;
+  background-color: #007BFF;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 20px;
+
+  a {
+    padding: 5px;
+    transition: background-color 300ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+  }
+
+  .active {
+    background-color: #0050ADFF;
+  }
+}

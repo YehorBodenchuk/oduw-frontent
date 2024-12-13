@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .chat {
+      height: 300px;
+      overflow-y: auto;
+    }
+  }
+}

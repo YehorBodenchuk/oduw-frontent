@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  height: 100dvh;
+  flex: 1;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__stack {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__input_stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    span {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+
+      b {
+        color: #fff;
+        background-color: #007BFF;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+      }
+    }
+  }
+}

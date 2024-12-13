@@ -1,0 +1,35 @@
+.root {
+  background-color: #F5F5F5;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border-radius: 20px;
+
+    .sign_in {
+      flex: 1;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sign_up {
+      flex: 1;
+      background-color: #007BFF;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
