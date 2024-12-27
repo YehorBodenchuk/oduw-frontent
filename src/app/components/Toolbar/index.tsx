@@ -17,6 +17,12 @@ const links = [
     src: '/assets/icons/chat_icon.svg',
     alt: 'settingsIcon',
     href: '/dashboard/chat'
+  },
+  {
+    id: 3,
+    src: '/assets/icons/task.svg',
+    alt: 'todoIcon',
+    href: '/dashboard/todo'
   }
 ]
 

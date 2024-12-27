@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  height: 100dvh;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: #fdf3b4;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .add_btn {
+    background-color: #d6d7dc;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    p {
+      color: #0a0a0a;
+      font-size: 36px;
+    }
+  }
+}
